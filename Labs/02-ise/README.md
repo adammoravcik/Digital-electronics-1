@@ -18,7 +18,7 @@
 
 &nbsp;
 
-![equation](https://latex.codecogs.com/png.latex?y_%7BA%3DB%7D%5E%7BSop%7D%3D%5Coverline%7BA%7D*%5Coverline%7BB%7D)
+![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3DB%7D%5E%7BSoP%7D%3D%5Coverline%7BA%7D*%5Coverline%7BB%7D&plus;%28A*B%29)
 
 &nbsp;
 
