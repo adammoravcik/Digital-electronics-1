@@ -41,3 +41,6 @@
 | :-: | :-: | :-: |
 | 0 | 0 |  |
 | 1 | 0 | **B** |
+
+&nbsp;
+![equation](https://latex.codecogs.com/png.latex?y_%7BA%3CB%7D%5E%7BPos%2Cmin%7D%3DA&plus;%5Coverline%7BB%7D)
