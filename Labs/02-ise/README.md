@@ -25,14 +25,18 @@
 | :-: | :-: | :-: |
 | 0 | 1 |  |
 | 0 | 0 | **B** |
+
 &nbsp;
 ![equation](https://latex.codecogs.com/png.latex?y_%7BA%3DB%7D)
+
 |  | **A** |  |
 | :-: | :-: | :-: |
 | 1 | 0 |  |
 | 0 | 1 | **B** |
+
 &nbsp;
 ![equation](https://latex.codecogs.com/png.latex?y_%7BA%3CB%7D)
+
 |  | **A** |  |
 | :-: | :-: | :-: |
 | 0 | 0 |  |
