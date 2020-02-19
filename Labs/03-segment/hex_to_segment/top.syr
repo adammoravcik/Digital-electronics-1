@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> 
 Reading design: top.prj
@@ -81,7 +81,8 @@ wysiwyg                            : NO
 Compiling vhdl file "/home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/03-segment/hex_to_segment/hex_to_7seg.vhd" in Library work.
 Architecture behavioral of Entity hex_to_7seg is up to date.
 Compiling vhdl file "/home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/03-segment/hex_to_segment/top.vhd" in Library work.
-Architecture behavioral of Entity top is up to date.
+Entity <top> compiled.
+Entity <top> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -196,8 +197,8 @@ Cell Usage :
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.26 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.29 secs
  
 --> 
 

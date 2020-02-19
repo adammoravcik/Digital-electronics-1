@@ -33,3 +33,7 @@ XSLTProcess hex_to_7seg_build.xml
 tsim -intstyle ise hex_to_7seg hex_to_7seg.nga 
 hprep6 -s IEEE1149 -i hex_to_7seg 
 XSLTProcess hex_to_7seg_build.xml 
+XSLTProcess hex_to_7seg_build.xml 
+XSLTProcess hex_to_7seg_build.xml 
+XSLTProcess hex_to_7seg_build.xml 
+XSLTProcess hex_to_7seg_build.xml 

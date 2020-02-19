@@ -52,14 +52,16 @@ begin
 
 
     -- Turn on LD3 if the input value is equal to "0000"
-        LD3 <= '0' when (s_hex = "0000") else '1';
+        --LD3 <= '0' when (s_hex = "0000") else '1';
+        LD3 <= ((s_hex(0)) or ( s_hex(1)) or ( s_hex(2)) or ( s_hex(3)));
 
     -- Turn on LD2 if the input value is A, B, C, D, E, or F
         LD2 <= '0' when ((s_hex = "1010") or (s_hex = "1011") or (s_hex = "1100") or (s_hex = "1101") or (s_hex = "1110") or (s_hex = "1111")) else '1';
 
     -- Turn on LD1 if the input value is odd, ie 1, 3, etc.
-        LD1 <= '0' when (s_hex(0) = '1') else '1';
-
+        --LD1 <= '0' when (s_hex(0) = '1') else '1';
+        LD1 <= not s_hex(0);
+        
     -- Turn on LD0 if the input value is a power of two, ie 1, 2, 4, or 8.
         LD0 <= '0' when ((s_hex = "0001") or (s_hex = "0010") or (s_hex = "0100") or (s_hex = "1000")) else '1';
 
