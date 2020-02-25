@@ -1,4 +1,6 @@
-Half adder 
+
+## Half adder
+&nbsp;
 
 | **B** | **A** | **Carry** | **Sum** |
 | :-: | :-: | :-: | :-: |
@@ -6,11 +8,12 @@ Half adder
 | 0 | 1 | 0 | 1 |
 | 1 | 0 | 0 | 1 |
 | 1 | 1 | 1 | 0 |
+ 
+ &nbsp;
 
+## Full adder
+&nbsp;
 
-
-
-Full adder 
 | **Cin** | **B** | **A** | **Cout** | **Sum** |
 | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 0 | 0 |
@@ -22,5 +25,7 @@ Full adder
 | 1 | 1 | 0 | 1 | 0 |
 | 1 | 1 | 1 | 1 | 1 |
 
+## Half adder, Full adder
+&nbsp;
 
 ![logic](half_full.png)
