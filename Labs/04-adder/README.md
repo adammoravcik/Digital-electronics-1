@@ -21,3 +21,6 @@ Full adder
 | 1 | 0 | 1 | 1 | 0 |
 | 1 | 1 | 0 | 1 | 0 |
 | 1 | 1 | 1 | 1 | 1 |
+
+
+![logic](half_full.png)
