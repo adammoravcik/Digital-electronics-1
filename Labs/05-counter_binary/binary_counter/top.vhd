@@ -20,7 +20,8 @@ port (
     clk_i      : in  std_logic;     -- 10 kHz clock signal
     BTN0       : in  std_logic;     -- Synchronous reset
     disp_seg_o : out std_logic_vector(7-1 downto 0);
-    disp_dig_o : out std_logic_vector(4-1 downto 0)
+    disp_dig_o : out std_logic_vector(4-1 downto 0);
+    LD0, LD1, LD2, LD3 : out std_logic
 );
 end entity top;
 
@@ -57,7 +58,7 @@ begin
                   clk_i => clk_i,
                   cnt_o => s_count);
 
-
+    
 
     --------------------------------------------------------------------
     -- Sub-block of hex_to_7seg entity
@@ -65,8 +66,15 @@ begin
     SEGMENT: entity work.hex_to_7seg
         port map ( hex_i => s_count,
                    seg_o => disp_seg_o);
-
+    
+    
+    LD0 <= not s_count(0);
+    LD1 <= not s_count(1);
+    LD2 <= not s_count(2);
+    LD3 <= not s_count(3);
+    
     -- Select display position
-    disp_dig_o <= "1110";
+    disp_dig_o <= "0000";
+    
 
 end architecture Behavioral;

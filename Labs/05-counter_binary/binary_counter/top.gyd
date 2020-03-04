@@ -3,10 +3,14 @@ Pin Freeze File:  version P.20131013
 2C256144 XC2C256-6-TQ144
 BTN0 S:PIN143
 clk_i S:PIN38
+LD0 S:PIN69
+LD1 S:PIN68
+LD2 S:PIN66
+LD3 S:PIN64
 disp_dig_o<0> S:PIN126
-disp_dig_o<1> S:PIN2
-disp_dig_o<2> S:PIN3
-disp_dig_o<3> S:PIN4
+disp_dig_o<1> S:PIN128
+disp_dig_o<2> S:PIN129
+disp_dig_o<3> S:PIN130
 disp_seg_o<0> S:PIN61
 disp_seg_o<1> S:PIN54
 disp_seg_o<2> S:PIN57
@@ -24,24 +28,24 @@ PARTITION FB1_1 CLOCKE/s_cnt<8> CLOCKE/s_cnt<13> CLOCKE/s_cnt<7> N_PZ_115
 		 CLOCKE/s_cnt<2> CLOCKE/s_cnt<1> CLOCKE/s_cnt<0> CLOCKE/s_cnt<11>
 		 CLOCKE/s_cnt<12> CLOCKE/s_cnt<9> CLOCKE/s_cnt<15> CLOCKE/s_cnt<14>
 		
-PARTITION FB2_1 disp_dig_o<1> N_PZ_139 disp_dig_o<2> disp_dig_o<3>
+PARTITION FB2_6 N_PZ_110 N_PZ_145 N_PZ_139 s_en
+		 CLOCKE/s_cnt<6> CLOCKE/s_cnt<4>
+PARTITION FB2_16 N_PZ_140
+
+
+
+
+
+
+
+
+PARTITION FB11_13 disp_dig_o<0> disp_dig_o<1> disp_dig_o<2> disp_dig_o<3>
 		
-PARTITION FB2_6 CLOCKE/s_cnt<6> CLOCKE/s_cnt<4> s_en s_count<3>
-		 s_count<2> s_count<1>
-PARTITION FB2_13 N_PZ_110 N_PZ_144 N_PZ_138 s_count<0>
-		
 
 
-
-
-
-
-
-
-PARTITION FB11_13 disp_dig_o<0>
-
-
-
+PARTITION FB14_4 LD0
+PARTITION FB14_6 LD1
+PARTITION FB14_13 LD2 LD3
 PARTITION FB14_16 disp_seg_o<0>
 
 PARTITION FB16_5 disp_seg_o<4>

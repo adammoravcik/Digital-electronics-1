@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> 
 Reading design: top.prj
@@ -248,36 +248,35 @@ Clock Enable                       : YES
 wysiwyg                            : NO
 
 Design Statistics
-# IOs                              : 13
+# IOs                              : 17
 
 Cell Usage :
-# BELS                             : 237
+# BELS                             : 240
 #      AND2                        : 70
 #      AND3                        : 7
 #      AND4                        : 1
 #      GND                         : 2
-#      INV                         : 85
+#      INV                         : 89
 #      OR2                         : 49
 #      OR3                         : 2
 #      OR4                         : 2
-#      VCC                         : 1
 #      XOR2                        : 18
 # FlipFlops/Latches                : 21
 #      FD                          : 17
 #      FDCE                        : 4
-# IO Buffers                       : 13
+# IO Buffers                       : 17
 #      IBUF                        : 2
-#      OBUF                        : 11
+#      OBUF                        : 15
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.47 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.50 secs
  
 --> 
 
 
-Total memory usage is 523740 kilobytes
+Total memory usage is 523760 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
