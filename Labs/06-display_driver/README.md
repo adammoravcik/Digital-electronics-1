@@ -1,4 +1,4 @@
-# segment_timing
+# Segment timing
 
 
 ![segment_timing](segment_timing.png)
