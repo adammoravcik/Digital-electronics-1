@@ -1,7 +1,7 @@
 # segment_timing
 
 
-
+![segment_timing](segment_timing.png)
 &nbsp;
 &nbsp;
 ```javascript
