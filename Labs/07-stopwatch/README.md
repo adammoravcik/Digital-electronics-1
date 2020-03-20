@@ -4,4 +4,4 @@
 br 
 
 
-Labs/07-stopwatch/test screen.png
+![logic](Labs/07-stopwatch/test screen.png)
