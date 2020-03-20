@@ -3,4 +3,5 @@
 ![logic](schematic.png)
 br 
 
-![logic](test_screen.png)
+
+Labs/07-stopwatch/test screen.png
