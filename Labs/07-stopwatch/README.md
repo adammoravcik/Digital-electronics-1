@@ -3,4 +3,4 @@
 ![logic](schematic.png)
 br 
 
-![logic](test screen.png)
+![logic](test_screen.png)
