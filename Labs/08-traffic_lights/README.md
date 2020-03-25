@@ -1,9 +1,12 @@
 # Test
 &nbsp;
+## Simulation
 &nbsp;
-## reset in 8sec.
-![logic](test_screen.png)
+![logic](simulation.png)
 &nbsp;
+## Reset in 8sec.
+&nbsp;
+![logic](reset.png)
 &nbsp;
 # Traffic_control_diagram
 ![logic](traffick_control_diagram.png)
