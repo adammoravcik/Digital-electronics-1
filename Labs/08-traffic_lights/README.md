@@ -2,7 +2,9 @@
 &nbsp;
 ## Simulation
 &nbsp;
-![logic](simulation.png)
+![logic](simulation1.png)
+&nbsp;
+![logic](simulation2.png)
 &nbsp;
 ## Reset in 8sec.
 &nbsp;
