@@ -13,4 +13,5 @@ Rýchlosť je možné voliť medzi hodnotami 110 bit/s a 600 bit/s, ako je aj vi
 ## Dvojitý stop bit
 &nbsp;
 Pridali sme možnosť zvoliť si medzi jedným alebo dvoma stop bitmi, s ktorou sme sa stretli pri študovaní problematiky.
+Určiť počet stop bitov môžeme pri porovnaní signálu s hladinou active.
 ![logic](double_stop.png)
