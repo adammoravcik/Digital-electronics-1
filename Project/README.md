@@ -44,10 +44,11 @@ Určiť počet stop bitov môžeme pri porovnaní signálu s hladinou active.
 
 &nbsp;
 ## Odkazy na zdrojové súbory
-[top](UART/top.vhd)
-[testbench](UART/testbench.vhd)
-[clock_enable](UART/clock_enable.vhd)
-[UART](UART/UART_tx.vhd)
+* [top](UART/top.vhd)
+* [testbench](UART/testbench.vhd)
+* [clock_enable](UART/clock_enable.vhd)
+* [UART](UART/UART_tx.vhd)
+
 &nbsp;
 ## Zdroje
 * <https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter>
