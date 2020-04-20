@@ -20,7 +20,7 @@
 
 * Rýchlosť je možné voliť medzi hodnotami 110 bit/s a 600 bit/s, ako je aj vidieť.
 
-![logic](speed.png)
+![logic](simulation_screenshots/speed.png)
 
 ## Dvojitý stop bit
 
