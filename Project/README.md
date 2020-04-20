@@ -18,11 +18,11 @@
 Určiť počet stop bitov môžeme pri porovnaní signálu s hladinou active.
 
 ![logic](double_stop.png)
-
-
+&nbsp;
+## Odkazy na zdrojové súbory
 
 &nbsp;
-## Zdroje:
+## Zdroje
 * <https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter>
 
 * <https://www.nandland.com/vhdl/modules/module-uart-serial-port-rs232.html>
