@@ -1,6 +1,12 @@
 ## Popis zadanej problematiky
+
 * UART (universal asynchronous receiver-transmitter) je hardwarové zariadenie pre asynchrónnu komunikáciu, pri ktorej je možné meniť rýchlosť a formát dát. Vysielač posiela byty po  jednotlivých bitoch v konkrétnom poradí: start bit, jednotlivé bity dát (od 5 do 9 bitov), parity bit, stop bit (jeden alebo viacero). Start a stop bit slúžia na identifikáciu začiatku a konca správy a parity bit slúži na kontrolu integrity správy. Pri nečinnosti je úroveň signálu v log. 1, následne start bit je log. 0 a stop bit je znova log. 1, tým sa zabezpečilo, že dôjde aspoň k jednej zmene úrovne signálu. Podobný systém je použitý pri RS-232 porte.
+
 * Pri úlohe sme na clockovací signál použili dávnejšie vytvorený clock_enable.vhd. Hlavnú časť projektu UART_tx sme riešili pomocou case sekvencie, kde každá časť rieši iný problém ako napr. passive state, start bit, parity bity, stop bity, začiatok vysielania dát, počítanie indexov, clean process. Hodnota dát a volba rýchlosti, parity a double stop bitov je riešená pomocou switchov implementovaných na doske. Spúšťačom je button, po ktorého stlačení sa odošle navolená správa (reakcia sa vyvoláva log 0). V top module prepájame jednotlivé časti nášho projektu a zároveň sa tu určujú dve rýchlosti medzi ktorými bude možné prepínať.
+
+## Legenda
+
+*
 
 ## Parita sudá/lichá
 
