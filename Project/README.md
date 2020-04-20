@@ -20,8 +20,8 @@ Určiť počet stop bitov môžeme pri porovnaní signálu s hladinou active.
 
 &nbsp;
 ## Zdroje:
-⋅⋅* <https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter>
+* <https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter>
 
-⋅⋅* <https://www.nandland.com/vhdl/modules/module-uart-serial-port-rs232.html>
+* <https://www.nandland.com/vhdl/modules/module-uart-serial-port-rs232.html>
 
-⋅⋅* <https://electronics.stackexchange.com/questions/9264/what-standard-uart-rates-are-there>
+* <https://electronics.stackexchange.com/questions/9264/what-standard-uart-rates-are-there>
