@@ -15,3 +15,11 @@ Rýchlosť je možné voliť medzi hodnotami 110 bit/s a 600 bit/s, ako je aj vi
 Pridali sme možnosť zvoliť si medzi jedným alebo dvoma stop bitmi, s ktorou sme sa stretli pri študovaní problematiky.
 Určiť počet stop bitov môžeme pri porovnaní signálu s hladinou active.
 ![logic](double_stop.png)
+
+
+
+&nbsp;
+## Zdroje:
+https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
+https://www.nandland.com/vhdl/modules/module-uart-serial-port-rs232.html
+https://electronics.stackexchange.com/questions/9264/what-standard-uart-rates-are-there
