@@ -7,7 +7,7 @@
 ## Legenda
 
 * clk_i 	- hodinový signál
-* BTN0	- slúži na spustenie procesu posielania, pri stlačení = log. 0
+* BTN0	- slúži na spustenie procesu, pri stlačení = log. 0
 * SW0_CPLD – SW7_CPLD – zvolenie hodnoty jednotlivých bitov
 * SW8_CPLD	- slúži na určenie rýchlosti, log. 1 = 110 bit/s, log. 0 = 600 bit/s
 * SW9_CPLD	- slúži na určenie parity, log. 1 = sudá parita, log. 0 = lichá parita
