@@ -6,15 +6,15 @@
 
 ## Legenda
 
-*clk_i 	- hodinový signál
-*BTN0	- slúži na spustenie procesu posielania, pri stlačení = log. 0
-*SW0_CPLD – SW7_CPLD – zvolenie hodnoty jednotlivých bitov
-*SW8_CPLD	- slúži na určenie rýchlosti, log. 1 = 110 bit/s, log. 0 = 600 bit/s
-*SW9_CPLD	- slúži na určenie parity, log. 1 = sudá parita, log. 0 = lichá parita
-*SW10_CPLD	- slúži na určenie stop bitu, log. 1 = dva stop bity, log. 0 = jeden stop bit
-*LD0	- slúži iba na kontrolu signálu pri simulácii (pri reálnom prevedení nepoužitá)
-*active_o  - určuje dobu, počas ktorej sa vysiela správa
-*done_o  - určuje dobu, po odvysielaní správy
+* clk_i 	- hodinový signál
+* BTN0	- slúži na spustenie procesu posielania, pri stlačení = log. 0
+* SW0_CPLD – SW7_CPLD – zvolenie hodnoty jednotlivých bitov
+* SW8_CPLD	- slúži na určenie rýchlosti, log. 1 = 110 bit/s, log. 0 = 600 bit/s
+* SW9_CPLD	- slúži na určenie parity, log. 1 = sudá parita, log. 0 = lichá parita
+* SW10_CPLD	- slúži na určenie stop bitu, log. 1 = dva stop bity, log. 0 = jeden stop bit
+* LD0	- slúži iba na kontrolu signálu pri simulácii (pri reálnom prevedení nepoužitá)
+* active_o  - určuje dobu, počas ktorej sa vysiela správa
+* done_o  - určuje dobu, po odvysielaní správy
 
 
 ## Parita sudá/lichá
