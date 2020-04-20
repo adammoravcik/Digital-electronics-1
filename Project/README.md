@@ -29,6 +29,9 @@ Určiť počet stop bitov môžeme pri porovnaní signálu s hladinou active.
 
 ![logic](simulation_screenshots/double_stop.png)
 &nbsp;
+## Schéma obvodových zapojení
+![logic](top.png)
+&nbsp;
 ## Odkazy na zdrojové súbory
 
 &nbsp;
