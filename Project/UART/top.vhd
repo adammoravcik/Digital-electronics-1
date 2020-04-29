@@ -49,11 +49,10 @@ port (
     SW8_CPLD	: in  std_logic;	-- speed
     SW9_CPLD	: in  std_logic;	-- parity
     SW10_CPLD	: in  std_logic;	-- double stop bit
-									-- control variables
+------------------------- control variables ----------------------------
     LD0		: out std_logic;  	-- LED for control
     active_o	: out std_logic;	-- active state
-    done_o	: out std_logic  	-- passive state
-		);
+    done_o	: out std_logic); 	-- passive state
 end entity top;
 
 ------------------------------------------------------------------------
